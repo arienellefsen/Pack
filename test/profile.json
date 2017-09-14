@@ -1,0 +1,27 @@
+{
+ "kind": "plus#person",
+ "gender": "male",
+ "emails": [
+  {
+   "value": "fred.example@gmail.com",
+   "type": "account"
+  }
+ ],
+ "objectType": "person",
+ "id": "000000000000000000000",
+ "displayName": "Fred Example",
+ "name": {
+  "givenName": "Fred",
+  "familyName": "Example"
+ },
+ "url": "https://plus.google.com/000000000000000000000",
+ "image": {
+  "url": "https://domain.com/image.jpg",
+  "isDefault": true
+ },
+ "isPlusUser": true,
+ "language": "en",
+ "circledByCount": 0,
+ "verified": false,
+ "domain": "gmail.com"
+}

@@ -1,0 +1,68 @@
+{
+  "name": "Pac",
+  "version": "0.1.6",
+  "description": "Add your favorite places in one single app to share with your friends using gmail account ",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^0.12.0",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "google-maps-react": "^1.1.0",
+    "gplaces": "^1.0.13",
+    "mongoose": "^4.5.1",
+    "morgan": "^1.7.0",
+    "nodemailer": "^4.1.0",
+    "passport-oauth2": "^1.1.2",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-native-cli": "^2.0.1",
+    "react-places-autocomplete": "^5.4.3",
+    "react-router": "^4.1.2",
+    "react-router-dom": "^4.1.2",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.13",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-2": "^6.24.1",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.2",
+    "browser-sync": "^2.18.13",
+    "connect-redis": "^3.3.0",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.5",
+    "method-override": "^2.3.8",
+    "morgan": "^1.8.2",
+    "mysql": "^2.13.0",
+    "passport": "^0.4.0",
+    "passport-google-oauth2": "^0.1.6",
+    "react-google-maps": "^7.2.0",
+    "react-google-places-component": "0.0.5",
+    "sequelize": "^3.30.4",
+    "vows": "^0.8.0",
+    "webpack": "^2.0.0"
+  },
+  "keywords": [
+    "auth",
+    "google",
+    "google+",
+    "passportjs",
+    "oauth2"
+  ],
+  "author": "Ariene, Xiaoying, Kalpana",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "homepage": ""
+}

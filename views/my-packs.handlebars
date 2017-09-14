@@ -1,0 +1,25 @@
+<h4 class="favorite-title">Favorite Packs</h4>
+
+<div class="container margin">
+    <div class="row">
+    {{#each this.pacData}}
+        {{#each this}}  
+            <div class="col-sm-4">
+                <div class="card-favorites">
+                    <h1 class="name-pack">{{this.title}}</h1>
+                    {{#each this.places}}  
+                    <p class="address-pack">{{this.address}}</p>
+                     {{/each}} 
+                    <button type="button" pac-id="{{this._id}}" class="btn btn-primary" data-toggle="modal" data-target="#myModal2" id="share">Share</button>
+                    <button type="button" class="btn btn-primary">Edit</button>
+                    <button type="button" class="btn btn-primary">Delete</button>
+                </div>
+            </div>
+        {{/each}}
+    {{/each}}
+    </div>
+</div>
+
+ 
+
+  
